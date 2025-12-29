@@ -35,7 +35,7 @@ object BleAdvertiserManager {
         const val DEFAULT_MAC = "18:BC:5A:10:60:4D"
         const val DEFAULT_DATA = "02011A17FF0002317D89030000000F0295699D011000000003FE3C"
         const val DEFAULT_RSSI = -50
-        const val MAX_DATA_LENGTH = 31
+        const val MAX_DATA_LENGTH = 64
 
         private val MAC_PATTERN = Pattern.compile("^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$")
         private val HEX_PATTERN = Pattern.compile("^[0-9A-Fa-f]+$")
